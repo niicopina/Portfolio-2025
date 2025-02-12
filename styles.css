@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    background-color: rgba(3, 70, 157, 0.746);
+    margin: 0;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(3, 40, 143, 0.81);
+    width: 100%;
+    z-index: 1000;
+}
+.navbar {
+    margin: 0;
+    text-align: center;
+}
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.nav-link:hover {
+    background-color: rgba(68, 90, 149, 0.81);
+    border-radius: 3px;
+}
+
+.present-card {
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+    background: #fff9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+}
+.present-card img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+.present-card-content {
+    padding: 20px;
+}
+.present-card-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.present-card-content p {
+    color: #555;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
