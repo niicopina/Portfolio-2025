@@ -43,11 +43,12 @@ body {
     right: -400px;
 }
 .about-card {
-    padding: 23px;
+    padding: 20px;
     display: flex;
     left: 645px;
     transition: top 1s;
     position: relative;
+    top: 200px;
 }
 body:hover .present-card {
     right: 0;
