@@ -31,22 +31,29 @@ body {
 
 .present-card {
     margin: 40px;
-    padding: 40px;
+    padding: 20px;
     display: flex;
     background: #fff9;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    max-width: 600px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    max-width: 550px;
     transition: right 1s;
     position: relative;
     right: -400px;
+}
+.about-card {
+    padding: 23px;
+    display: flex;
+    left: 645px;
+    transition: top 1s;
+    position: relative;
 }
 body:hover .present-card {
     right: 0;
 }
 body:hover .about-card {
-    right: -200px;
+    top: -360px;
 }
 .present-card img {
     width: 200px;
@@ -66,19 +73,16 @@ body:hover .about-card {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #555;
+    color: rgba(20, 18, 18, 0.6);
     text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: bold;
 }
-
-.footer-links a {
-    color: #fff;
+.footer-links-cont, a {
     text-decoration: none;
-    margin: 0 10px;
+    color: rgba(53, 12, 12, 0.6);
 }
-
-.footer-links a:hover {
+.footer-links:hover {
     text-decoration: underline;
 }
